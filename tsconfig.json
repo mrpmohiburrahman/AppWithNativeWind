@@ -15,34 +15,28 @@
     "strict": true, /* Enable all strict type-checking options. */
     "moduleResolution": "node", /* Specify module resolution strategy: 'node' (Node.js) or 'classic' (TypeScript pre-1.6). */
     // "baseUrl": "./", /* Base directory to resolve non-absolute module names. */
-    "baseUrl": "./",
-    "paths": {
-      // "*": [
-      //   "app"
-      // ],
-      "@*": [
-        "app/*"
-      ],
-      // "@components/*": [
-      //   "components/*"
-      // ],
-      // "@utils/*": [
-      //   "utils/*"
-      // ],
-      // "@navigation/*": [
-      //   "navigation/*"
-      // ],
-      // "@screens/*": [
-      //   "screens/*"
-      // ],
-      // "@data/*": [
-      //   "data/*"
-      // ],
-    },
     "allowSyntheticDefaultImports": true, /* Allow default imports from modules with no default export. This does not affect code emit, just typechecking. */
     "esModuleInterop": true, /* Enables emit interoperability between CommonJS and ES Modules via creation of namespace objects for all imports. Implies 'allowSyntheticDefaultImports'. */
     // "preserveSymlinks": true,              /* Do not resolve the real path of symlinks. */
-    "skipLibCheck": false /* Skip type checking of declaration files. */
+    "skipLibCheck": false, /* Skip type checking of declaration files. */
+    "baseUrl": "src",
+    "paths": {
+      "@components/*": [
+        "components/*"
+      ],
+      "@data/*": [
+        "data/*"
+      ],
+      "@navigation/*": [
+        "navigation/*"
+      ],
+      "@screens/*": [
+        "screens/*"
+      ],
+      "@utils/*": [
+        "utils/*"
+      ],
+    },
   },
   "exclude": [
     "node_modules",
