@@ -3,12 +3,7 @@ import React from 'react';
 
 const App = () => {
   return (
-    <View
-      style={{
-        flex: 1,
-        justifyContent: 'center',
-        alignItems: 'center',
-      }}>
+    <View className="flex-1 justify-center items-center">
       <Text>Hello world</Text>
     </View>
   );
